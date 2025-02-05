@@ -1,16 +1,31 @@
-Clone our repository:
+## Installation
+
+1. Clone this repository:
+
+```
 git clone https://github.com/lcloud-zadanie/devops-task.git
+```
 
-Get Into the repo we just cloned
+2. Navigate to the project directory:
+
+```
 cd devops-task
+```
 
-Setup virtual environment:
+3. Setup virtual environment:
+```
 python3 -m venv venv
+
 source venv/bin/activate  # For Linux/MacOS
+
 venv\Scripts\activate     # For Windows
+```
+4. Install the required packages:
 
-Install Requirements:
+```
 pip install -r requirements.txt
-
-Run Script :
+```
+5. Run The Script
+```
 python3 upload_s3_python.py
+```
